@@ -1,0 +1,8 @@
+| Purpose        | Color Name      | Hex       | CSS       | Use Case                               |
+| -------------- | --------------- | --------- | --------- | -------------------------------------- |
+| **Primary**    | Royal Blue      | `#1E3A8A` | blue-900  | Main buttons, links, highlights        |
+| **Accent**     | Sky Blue        | `#60A5FA` | blue-400  | Hover states, icons, visual interest   |
+| **Background** | Light Blue Gray | `#F0F4F8` | slate-100 | Page background or section blocks      |
+| **Text**       | Navy            | `#1E293B` | slate-800 | Headings and important text            |
+| **Secondary**  | Steel Blue      | `#3B82F6` |           | Secondary buttons, borders             |
+| **Highlight**  | Powder Blue     | `#DBEAFE` | blue-100  | Alerts, cards, or light contrast areas |
