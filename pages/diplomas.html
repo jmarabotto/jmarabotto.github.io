@@ -11,21 +11,9 @@
 </head>
 <body>
     
-<div class="navbar">
-    <a href="../index.html">Home</a>
-    <a href="#research">Research</a>
-    <div class="dropdown">
-    <button class="dropbtn" onclick="myFunction()">Documents
-        <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content" id="myDropdown">
-        <a href="../docs/cv.pdf" target="_blank">CV</a>
-        <a href="../docs/researchstate.pdf" target="_blank">Research statement</a>
-        <a href="diplomas.html">Diplomas</a>
-    </div>
-    </div>
-    <a href="#contact">Contact</a>
-</div>
+<div id="header"></div>
+
+<script src="script.js"></script>
 
 <h2>Education</h2>
 <ul>
@@ -41,22 +29,5 @@
     <li><a href="../docs/KBSTG_BJU2-24-22_MarJul.pdf" target="_blank">Support for adolescents 2 (FR)</a></li>
 </ul>
 
-<script>
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-    
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(e) {
-      if (!e.target.matches('.dropbtn')) {
-      var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains('show')) {
-          myDropdown.classList.remove('show');
-        }
-      }
-    }
-</script>
 </body>
 </html>

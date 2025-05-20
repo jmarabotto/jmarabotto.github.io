@@ -11,42 +11,17 @@
 </head>
 <body style="background-color:white;">
 
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="#research">Research</a>
-  <div class="dropdown">
-  <button class="dropbtn" onclick="myFunction()">Documents
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content" id="myDropdown">
-    <a href="docs/cv.pdf" target="_blank">CV</a>
-    <a href="docs/researchstate.pdf" target="_blank">Research statement</a>
-    <a href="pages/diplomas.html">Diplomas</a>
-  </div>
-  </div>
-  <a href="#contact">Contact</a>
-</div>
+<div id="header"></div>
 
+<script src="script.js"></script>
+<!-- To test locally: open using local host: -->
+<!-- >>> python3 -m http.server -->
+<!-- >>> http://localhost:8000/index.html -->
+
+<!-- Home page -->
 <h3>Welcome to my Website!</h3>
 <p> As you can see, it is currently under construction. Please be in touch for any questions or documents!</p>
 <p>A few essentials, including CV, research statement and education diplomas, can be found under the Documents tab.</p>
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-</script>
 </body>
 </html>
